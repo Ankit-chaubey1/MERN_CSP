@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 mongoose.connect(
-  "mongodb+srv://chaubeyankit3449:BRjW4U7zgbSsKR5r@cluster0.b2s9f.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://atlasusername:atlaspassword@cluster0.b2s9f.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=Cluster0"
 )
 .then(() => {
   console.log("DB connected");
